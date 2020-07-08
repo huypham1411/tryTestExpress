@@ -1,0 +1,26 @@
+{
+  "name": "tryTestExpress",
+  "version": "1.0.0",
+  "description": "try to test deploy express with app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huypham1411/tryTestExpress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huypham1411/tryTestExpress/issues"
+  },
+  "homepage": "https://github.com/huypham1411/tryTestExpress#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
